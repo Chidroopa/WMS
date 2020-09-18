@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="viewprofile.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container emp-profile">
+        <form method="post">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-img">
+                        <img src="data:image/png;base64,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" alt=""/>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="profile-head">
+                                <h5>
+                                    Sample Name
+                                </h5>
+                                <h6>
+                                    Work Area
+                                </h6>
+                                <p class="proile-rating">RANKINGS : <span>Previous provided by Admin</span></p>
+                                            <div class="container mt-3">
+                                            <!-- Nav tabs -->
+                                            <ul class="nav nav-tabs">
+                                                <li class="nav-item">
+                                                <a class="nav-link active" href="#home">About</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                <a class="nav-link" href="#profile">Previous History</a>
+                                                </li>
+                                                <!-- <li class="nav-item">
+                                                <a class="nav-link" href="#menu2">Menu 2</a>
+                                                </li> -->
+                                            </ul>
+                                        </div>
+                                    </div>
+                
+                                </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="profile-work">
+                                            <br>
+                                            See all the details of Person
+                                        </div>
+                                    </div>
+  <!-- Tab panes --> <div class="col-md-8">
+                                    <div class="tab-content profile-tab">
+                                        <div id="home" class="container tab-pane active">
+                                            <div class="row">
+                                            <div class="col-md-6">
+                                                <label>User Id</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Sample ID</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Name</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Sample Name</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Email</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>sampleemail@gmail.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Phone</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>123 456 7890</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Profession</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Work Area</p>
+                                            </div>
+                                        </div>
+                         </div>
+                                        <div id="profile" class="container tab-pane fade"><br>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label>Previous Conducted Workshop Count:</label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p>Sample Number</p>
+                                                </div>
+                                            </div>
+                        
+                                        <!-- <div id="menu2" class="container tab-pane fade"><br>
+                                        <h3>Menu 2</h3>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                                        </div> -->
+                                    </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </form>  
+                            </div>
+                                 
+
+<script>
+$(document).ready(function(){
+  $(".nav-tabs a").click(function(){
+    $(this).tab('show');
+  });
+});
+</script>
+
+</body>
+</html>
