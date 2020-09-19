@@ -1,0 +1,38 @@
+.modal-body input[type=text], .modal-body input[type=password], .modal-body input[type=number], .modal-body select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 20px 0;
+  border: none;
+  border-radius: 20px;
+  background:whitesmoke;
+  font-weight: bold;
+}
+.modal-footer .btn {
+  background-color: #f52f15;
+  color: white;
+  /* border: none; */
+  cursor: pointer;
+  /* width: 40%; */
+  border-radius: 10px;
+  /* margin-bottom:10px;
+  opacity: 0.8; */
+}
+.modal-body .btn{
+background-color: rgb(38, 218, 38);
+font-weight: bold;
+}
+.container .modalbtn{
+  background-color: rgb(45, 179, 179);
+  color: black;
+  width: 15%;
+  font-weight: bolder;
+  border-radius: 10px;
+  font-size:large;
+}
+body{
+  background-image: url(https://images.hdqwalls.com/download/himalayas-mountains-landscape-4k-f3-1336x768.jpg);
+  /* backdrop-filter:blur(10px); */
+}
+.modal-content {
+  background-image: url(https://wallpapercave.com/wp/wp4102987.jpg);
+}

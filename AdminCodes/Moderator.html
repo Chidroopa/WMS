@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="moderator.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="~/Content/bootstrapValidator/js/bootstrapValidator.min.js"></script>
+    <!-- <link href="~/Content/bootstrapValidator/css/bootstrapValidator.min.css" rel="stylesheet" /> -->
+  <script src="moderator.js"> </script>
+</head>
+<body>
+   
+<div class="container">
+  <h2 style="font-weight: bold">Welcome Admin</h2>  <br>
+  <button type="button" class="modalbtn" data-toggle="modal" data-target="#myModalone">Add Moderator</button>
+  <br>
+  <!-- <br> -->
+  <!-- <button type="button" class="modalbtn" data-toggle="modal" data-target="#myModaltwo">Add New Accomdation</button> -->
+  <div class="modal fade" id="myModalone" data-togglerole="dialog">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">Enter Moderator Details</h3>
+        </div>
+        <div class="modal-body">
+          <form name="moderator" onSubmit="return formModerator()"> 
+                <label for="u_name"><b>Name:</b></label><br>
+                <input type="text" placeholder="Enter Name " name="u_name" required>
+                <br>
+                <label id="gender">Gender:</label></li>
+                <select name="gender">
+                  <option selected="" value="Default">Please select a gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                <select>
+                <br>
+                <br>
+                <label for="email"><b>Email: </b></label><br>
+                <input type="text" placeholder="Enter Email" name="email" required>
+                <br>
+                <label for="userid"><b>UserID: </b></label><br>
+                <input type="text" placeholder="Enter UserID" name="userid" required>
+                <br>
+                <label for="psw"><b>Password: </b></label><br>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <br>
+                <label for="field"><b>Expertise Field: </b></label><br>
+                <input type="text" placeholder="Enter Field of Moderator" name="field" required>
+                <br></br>
+                <button type="submit" name="submit" class="btn" value="Submit">Add Moderator to Database</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="modal fade" id="myModaltwo" data-togglerole="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">Enter details of Hall</h3>
+        </div>
+        <div class="modal-body">
+                
+    
+                <label for="name"><b>Name Of the hall:</b></label><br>
+                <input type="text" placeholder="Enter Name of the hall" name="h_name" required>
+                <br>
+                <label for="capacity"><b>Capatity: </b></label><br>
+                <input type="number" placeholder="Enter Capacity" name="c_hall" required>
+                <br>
+                <label for="incharge"><b>Name of the Incharge for the Hall: </b></label><br>
+                <input type="text" placeholder="Enter Name" name="incharge" required>
+                <br>
+                <label for="address"><b>Address: </b></label><br>
+                <input type="text" placeholder="Enter Address of the Hall" name="addr" required>
+                <br>
+                </br>
+                <button type="submit" class="btn">Add Moderator to Database</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+</body>
+</html>
