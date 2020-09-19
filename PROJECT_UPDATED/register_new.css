@@ -1,0 +1,36 @@
+hr
+{
+    border-top: 8px solid #bbb;
+border-radius: 5px;
+}
+
+img
+{
+    height:250px;
+    width:1000px;
+}
+
+.active
+{
+    color:white;
+}
+.nav-pills .nav-item
+{
+    background-color: gray;
+}
+
+.nav-pills .nav-item .active
+{
+    background-color: rgb(206, 28, 28);
+}
+
+.nav-link
+{
+    color:white;
+}
+
+#p1
+{
+    font-size: large;
+    font-weight: bold;
+}

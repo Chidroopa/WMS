@@ -1,0 +1,36 @@
+h2
+{color:white;
+    text-align: center;
+}
+
+p
+{
+    font-size:x-large;
+    color:white;
+}
+
+input
+{
+ width:75%;
+ height:50px;  
+}
+
+#textarea1
+{
+    height:200px;
+}
+
+#div312
+{
+    margin-top:30px;
+}
+#div311
+{
+    padding:50px;
+}
+
+#p1
+{
+    font-size: large;
+    font-weight: bold;
+}

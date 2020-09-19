@@ -1,0 +1,50 @@
+.col
+{
+    height:100px;
+    text-align: center;
+    padding:25px;
+}
+.active
+{
+    color:white;
+}
+.nav-pills .nav-item
+{
+    background-color: gray;
+}
+
+.nav-pills .nav-item .active
+{
+    background-color: rgb(206, 28, 28);
+}
+
+.nav-link
+{
+    color:white;
+}
+
+
+#p1
+{
+    font-size: large;
+    font-weight: bold;
+}
+
+hr
+{
+    border-top: 8px solid #bbb;
+
+                        border-radius: 5px;
+}
+h3
+{
+    text-align:center;
+}
+
+
+
+img
+{
+    height:250px;
+    width:1000px;
+}
