@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="style2.css">
+<script src="bookaccom.js"> </script>
+<!------ Include the above in your HEAD tag ---------->
+</head>
+<body>
+<div class="sidenav">
+         <div class="login-main-text">
+            <h2>Book Accomdation</h2>
+            <p>Book Hall for Conference <br> OR Workshop</p>
+         </div>
+      </div>
+      <div class="main">
+         <div class="col-md-6 col-sm-12">
+            <div class="login-form">
+                  <div class="form-group">
+            <form name="bookaccomd" onSubmit="return formBookAccomdation()">
+                  <label for="hall"><b>Name of the Hall </b></label><br>
+                  <select name="hall">
+                        <option selected="" value="default">Choose hall</option>
+                        <option value="sample">Hi Auditorium</option>
+                        <option value="sample1">Hello Auditorium</option>
+                </select>
+                  <br></br>
+                  <label for="date"><b>Select Date: </b></label><br>
+                  <input type="date" name="date" required>
+                  <br></br>
+                  <label for="slots"><b>Slot Available</b></label><br>
+                  <select name="slots">
+                        <option selected="" value="default">Choose Slot</option>
+                        <option value="sample">Hi 6:00 -7:00</option>
+                        <option value="sample1">Hi 7:00-8:00</option>
+                </select>
+                <br></br>
+                  </div>
+                  <button type="submit" name="submit" value="Submit" class="btn btn-black">Add to Database</button>
+                  <!-- <button type="submit" class="btn btn-secondary">Register</button> -->
+               </form>
+            </div>
+         </div>
+   </body>
+</html>

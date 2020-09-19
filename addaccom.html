@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+   <link rel="stylesheet" href="style2.css">
+   <script src="addaccom.js"> </script>
+<!------ Include the above in your HEAD tag ---------->
+</head>
+<body>
+<div class="sidenav">
+         <div class="login-main-text">
+            <h2>Add Accomdation</h2>
+            <p>New Halls are added here</p>
+         </div>
+      </div>
+      <div class="main">
+         <div class="col-md-6 col-sm-12">
+            <div class="login-form">
+                  <div class="form-group">
+               <form name="addaccomd" onSubmit="return formAccomdation()">
+                  <label for="h_name"><b>Name Of the Hall</b></label><br>
+                  <input type="text" placeholder="Enter Name of the hall" name="h_name" required>
+                  <br></br>
+                  <label for="c_hall"><b>Capacity</b></label><br>
+                  <input type="text" placeholder="Enter Capacity" name="c_hall" required>
+                  <br></br>
+                  <label for="incharge"><b>Name of the Incharge for the Hall </b></label><br>
+                  <input type="text" placeholder="Enter Name" name="incharge" required>
+                  <br></br>
+                  <label for="addr"><b>Address </b></label><br>
+                  <input type="text" placeholder="Enter Address of the Hall" name="addr" required>
+                <br></br>
+                  </div>
+                  <button type="submit" class="btn btn-black" name="submit" value="Submit">Add to Database</button>
+                  <!-- <button type="submit" class="btn btn-secondary">Register</button> -->
+               </form>
+            </div>
+         </div>
+   </body>
+</html>
