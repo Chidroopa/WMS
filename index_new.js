@@ -26,7 +26,7 @@ $(function(){
 $(function(){
   $('#frame3').click(function(){ 
       if(!$('#iframe').length) {
-              $('#iframeHolder').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/k53LUZxUF50" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+              $('#iframeHolder').html('<iframe width="800" height="300" src="https://www.youtube.com/embed/k53LUZxUF50" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
       }
   });   
 });
