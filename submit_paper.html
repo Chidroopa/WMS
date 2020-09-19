@@ -17,8 +17,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   
   <script src="index_new.js"></script>
+  <script src="submit_paper.js"></script>
     </head>
     <body >
+      
         <div id="div1" class="bg-danger">
             <h1 class="text-white">
                 WMS           
@@ -73,7 +75,7 @@
              </div>
 
 
-
+             <form name="form1" onsubmit="return isValid();">
              <div id="div311" class="bg-dark">
               <h2>
                   SUBMIT YOUR PAPER TODAY.!
@@ -88,10 +90,29 @@
               <input type="text" id="ptitle"></input>
               <p>
                   Upload your paper..(preferably in the pdf format)
+      
               </p>
               <div class="bg-light">
-               <input type="file" class="custom-file-input" id="input2">
-               <label for="input2"  >Click in this box to upload..!</label>
+                <input type="file" id="input2" name="filename" onchange="return isFileValid();">
+               <script>
+                 function isFileValid() { 
+    var fileInput =  
+        document.getElementById('input2'); 
+      
+    var filePath = fileInput.value; 
+  
+    // Allowing file type 
+    var allowedExtensions =  
+/(\.doc|\.docx|\.odt|\.pdf|\.tex|\.txt|\.rtf|\.wps|\.wks|\.wpd)$/i; 
+      
+    if (!allowedExtensions.exec(filePath)) { 
+        alert('Invalid file type'); 
+        fileInput.value = ''; 
+        return false; 
+    }  
+} 
+               </script>
+               
             </input>
         </div>
 
@@ -101,9 +122,10 @@
         <input type="textarea" id="textarea1"></input>
 <br>
         <div class="container text-center" id="div312">
-            <a href="#" class="btn btn-info btn-lg btn-light" role="button">SUBMIT IT.!</a>
+            <button type="submit" value="submit" class="btn btn-info btn-lg btn-light" >SUBMIT IT.!</a>
           </div>
              </div>
+             </form>
 
              <footer class="bg-secondary footer">
 
