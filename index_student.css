@@ -1,0 +1,105 @@
+#search_depts
+{
+    color:white;
+    font-size:xx-large;
+    text-align:center;
+    font-weight: 500;
+}
+#pop_depts
+{
+    color:black;
+    font-size:xx-large;
+    text-align:center;
+    font-weight: 500;
+}
+.dept-divs {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dept-divs a {
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    background: #d8203b;
+    padding: 60px 30px;
+    transition: all 0.4s;
+    
+}
+
+.dept-divs a:hover {
+    color: #fff;
+    background: #333;
+}
+
+
+
+
+
+#p1
+{
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+
+
+#div3
+{
+    background-color: black;
+    padding: 50px;
+    height:400px;
+}
+#btn1
+{
+    position:relative;
+    bottom:60px;
+    left:900px;
+}
+
+#div4
+{
+    height:150px;
+    padding:50px;
+}
+
+
+
+#div5
+{
+    padding:50px;
+}
+
+
+.holder
+{
+    width:350px;
+}
+
+.holder ul li{
+    color:white;
+    font-size: x-large;
+}
+
+.holder a:link
+{
+    color:white;
+}
+
+.holder a:hover
+{
+    color:#ff4d4d;
+}
+
+
+
+  #iframeHolder
+  {
+      position: absolute;
+      top:200px;
+      right:100px;
+  }
+
