@@ -1,0 +1,85 @@
+body {
+	font-family: 'Alata', sans-serif;
+	font-size: 20px;
+	background: -webkit-linear-gradient(left, #e6e600, #ffffb3);
+	height: 100%;
+}
+
+header{
+	background-color: #ff4d4d;
+	border-top-right-radius: 20px;
+  	border-top-left-radius: 20px;
+  	border-bottom-left-radius: 0px;
+  	border-bottom-right-radius: 0px;
+}
+
+.details{
+	position: relative;
+  	top: 20px;
+  	width: 80%;
+  	margin: auto;
+  	background: -webkit-linear-gradient(left, #00cccc, #b3ffff);
+  	border-radius: 20px;
+}
+
+h2{
+	position: relative;
+	left: 300px;
+	padding-bottom: 10px;
+}
+
+.half_detailsq{
+  width: 50%;
+  height:2px;
+  float: left;
+  text-align: left;
+  position: relative;
+  left: 50px;
+}
+
+.half_detailsa{
+  width: 50%;
+  height:2px;
+  float: right;
+  text-align: left;
+  position: relative;
+}
+
+input{
+	height: 30px;
+	width: 200px;
+}
+
+button{
+  	border: none;
+	outline: 0;
+	padding: 10px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 20%;
+	font-size: 18px;
+	position: relative;
+	left: 35%;
+	border-radius: 20px;
+	bottom: 15px;
+}
+
+.contactus{
+	position: relative;
+	top: 40px;
+  text-align: center;
+  background-color: black;
+}
+
+.contact{
+  color: white;
+  display: inline;
+  padding: 10px;
+}
+
+.icon{
+  height: 50px;
+  width: 50px;
+}
