@@ -1,0 +1,115 @@
+body {
+	font-family: 'Alata', sans-serif;
+	font-size: 20px;
+	background: -webkit-linear-gradient(left, #e6e600, #ffffb3);
+	height: 100%;
+}
+
+.logo{
+  width: 20%;
+}
+
+.logopic{
+  height: 50px;
+  width: 100px;
+  float: left;
+}
+
+.nav-items{
+  width: 80%;
+}
+
+.nav-item{
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header{
+	background-color: #ff4d4d;
+	border-top-right-radius: 20px;
+  	border-top-left-radius: 20px;
+  	border-bottom-left-radius: 0px;
+  	border-bottom-right-radius: 0px;
+}
+
+h2{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.half_detailsq{
+  width: 50%;
+  height:2px;
+  float: left;
+  text-align: left;
+  position: relative;
+  left: 50px;
+}
+
+.half_detailsa{
+  width: 50%;
+  height:2px;
+  float: right;
+  text-align: left;
+  position: relative;
+}
+
+input{
+	height: 30px;
+	width: 200px;
+}
+
+button{
+  	border: none;
+	outline: 0;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 30%;
+	font-size: 18px;
+	position: relative;
+	left: 35%;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+
+.card {
+	border-top-right-radius: 20px;
+  	border-top-left-radius: 20px;
+  	position: relative;
+  	top: 20px;
+  	margin: auto;
+	width: 40%;
+	background: skyblue;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+}
+
+.contactus{
+	position: relative;
+	top: 40px;
+  text-align: center;
+  background-color: black;
+}
+
+.contact{
+  color: white;
+  display: inline;
+  padding: 10px;
+}
+
+.icon{
+  height: 50px;
+  width: 50px;
+}
+
+.pwdinst{
+	text-align: center;
+}
+
+li{
+	overflow: hidden;
+}

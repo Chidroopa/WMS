@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Sign up </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="studentsignup.css">
+		<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-sm bg-dark justify-content-center">
+			<span class="logo">
+	            <img src="wms_logo.png" alt="logo" class="logopic">
+        	</span>
+			<span class="nav items">
+	            <ul class="navbar-nav">
+	            	<li class="nav-item">
+	                	<a class="nav-link text-white" href="#">Home</a>
+	              	</li>
+		            <li class="nav-item">
+		            	<a class="nav-link text-white" href="#">Contact Admin</a>
+		            </li>
+	            </ul> 
+        	</span>
+        </nav>
+		<div class="card">
+			<form id="signup" method="POST" onsubmit="return validate();">
+				<header><h2> Fill in your details to sign up </h2></header>
+		    	<br>
+				<div class="half_detailsq">
+		    		<label class="detailsl">First Name</label>
+		    	</div>
+		    	<div class="half_detailsa">
+		      		<input required type="text" id="fname" name="fname">
+		      	</div>
+		      	<br>
+		      	<br>
+		      	<div class="half_detailsq">
+		      		<label class="detailsl">Last Name</label>
+		      	</div>
+		    	<div class="half_detailsa">
+		      		<input required type="text" id="lname" name="lname">
+		      	</div>
+		      	<br>
+		      	<br>
+		      	<div class="half_detailsq">
+		      		<label class="detailsl">Date of Birth</label>
+		      	</div>
+		    	<div class="half_detailsa">
+		      		<input required type="Date" id="dob" name="dob">
+		      	</div>
+		      	<br>
+		      	<br>
+		      	<div class="half_detailsq">
+		      		<label class="detailsl">Gender</label>
+		      	</div>
+		    	<div class="half_detailsa">
+		      		<select name="gender" id="gender">
+					  	<option value="male">Male</option>
+					  	<option value="female">Female</option>
+					  	<option value="others">Others</option>
+					</select>
+		      	</div>
+		      	<br>
+		      	<br>
+		      	<div class="half_detailsq">
+		      		<label class="detailsl">E-Mail Id</label>
+		      	</div>
+		    	<div class="half_detailsa">
+		      		<input required type="text" id="mailid" name="mailid">
+		      	</div>
+		      	<br>
+		      	<br>
+		      	<div class="half_detailsq">
+		      		<label class="detailsl">Password</label>
+		      	</div>
+		    	<div class="half_detailsa">
+		      		<input required type="password" id="password" name="password">
+		      	</div>
+		      	<br>
+		      	<br>
+		      	<strong>
+		      	<div class="half_detailsq">
+		      		<label class="detailsl">Password Requirements :</label>
+		      	</div>
+		      	<br>
+			        <ol class="pwdinst">
+			            <li>A lower case letter.</li>
+			            <li>A upper case letter.</li>
+			            <li>A number.</li>
+			            <li> A special character.</li>
+			            <li>Min 8 - 15 characters.</li>
+			        </ol>
+			    </strong>
+		      	<div class="half_detailsq">
+		      		<label class="detailsl">Confirm Password</label>
+		      	</div>
+		    	<div class="half_detailsa">
+		      		<input required type="password" id="cpassword" name="cpassword">
+		      	</div>
+		      	<br>
+		      	<br>
+		      	<div class="half_detailsq">
+		      		<label class="detailsl">Address</label>
+		      	</div>
+		    	<div class="half_detailsa">
+		      		<input required type="text" id="address" name="address">
+		      	</div>
+		      	<br>
+		      	<br>
+		      	<div class="half_detailsq">
+		      		<label class="detailsl">City</label>
+		      	</div>
+		    	<div class="half_detailsa">
+		      		<input required type="text" id="city" name="city">
+		      	</div>
+		      	<br>
+		      	<br>
+		      	<div class="half_detailsq">
+		      		<label class="detailsl">Pincode</label>
+		      	</div>
+		    	<div class="half_detailsa">
+		      		<input required type="text" id="pincode" name="pincode">
+		      	</div>
+		      	<br>
+		      	<br>
+				<div class="half_detailsq">
+		    		<label class="detailsl">Role</label>
+		    	</div>
+		    	<div class="half_detailsa">
+		      		<input required type="text" id="role" name="role">
+		      	</div>
+		      	<br>
+		      	<br>
+		      	<div class="half_detailsq">
+		      		<label class="detailsl">Institute</label>
+		      	</div>
+		    	<div class="half_detailsa">
+		      		<input required type="text" id="institute" name="institute">
+		      	</div>
+		      	<br>
+		      	<br>
+		      	<button type="submit" form="signup" id="submit" value="Submit">Submit</button>
+			</form>
+		</div>
+		<div class="contactus">
+			<h3 class="contact"> Contact Developer </h3><br>
+			<img src="profileimg.jpg" class="icon">
+			<p class="contact">Krishnatej</p>
+			<address>
+				<img src="mailimg.jpg" class="icon">
+		  		<a href="mailto:krishnatej@gmail.com">krishnatej@gmail.com</a><br>
+		  		<img src="phoneimg.png" class="icon">
+		  		<a href="tel:+91715552368">(+91) 715552368</a><br>
+		  		<img src="addressimg.png" class="icon">
+		  		<p class="contact">Janathapet North, Kavali, Andhra Pradesh</p>
+			</address>
+		</div>
+		<script type="text/javascript" src="studentsignup.js"></script>
+	</body>
+</html>

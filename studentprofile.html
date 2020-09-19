@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Profile </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="studentprofile.css">
+		<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-sm bg-dark justify-content-center">
+			<span class="logo">
+	            <img src="wms_logo.png" alt="logo" class="logopic">
+        	</span>
+			<span class="nav items">
+	            <ul class="navbar-nav">
+	            	<li class="nav-item">
+	                	<a class="nav-link text-white" href="#">Home</a>
+	              	</li>
+		            <li class="nav-item">
+		            	<a class="nav-link text-white" href="#">View pending ones</a>
+		            </li>
+		            <li class="nav-item">
+		            	<a class="nav-link text-white" href="#">View approved ones</a>
+		            </li>
+		            <li class="nav-item">
+		            	<a class="nav-link text-white" href="#">Contact Admin</a>
+		            </li>
+		            <li class="nav-item">
+		            	<a class="nav-link text-white" href="#">Help</a>
+		            </li>
+		            <li class="nav-item">
+	                	<a class="nav-link text-white" href="#">Sign Out</a>
+	              	</li>
+	            </ul> 
+        	</span>
+        </nav>
+        <div class="welcome">
+        	<marquee class="p1"> Welcome back, Krishnatej. Wanna catch up your profile ?</marquee>
+       	</div>
+        <button class="edit"> Edit Profile </button>
+		<div class="card">
+		    <img src="passport_1.jpg" id="profile_pic" alt="Alps">
+		    <div class="container">
+		    	
+		      	<button id="personalbutton" class="modalbutton">Personal Details</button>
+		      	<div id="personalmodal" class="modal">
+		      		<div id="content1" class="modal-content">
+				    	<span id="close1" class="close">&times;</span>
+				    	<div class="half_detailsq">
+				    		<label class="detailsl">First Name</label>
+				    	</div>
+				    	<div class="half_detailsa">
+				      		<p class="details">Krishnatej</p>
+				      	</div>
+				      	<br>
+				      	<div class="half_detailsq">
+				    		<label class="detailsl">Last Name</label>
+				    	</div>
+				    	<div class="half_detailsa">
+				      		<p class="details">Alahari</p>
+				      	</div>
+				      	<br>
+				      	<div class="half_detailsq">
+				      		<label class="detailsl">Date of Birth</label>
+				      	</div>
+				      	<div class="half_detailsa">
+				      		<p class="details">09-11-1999</p>
+				      	</div>
+				      	<br>
+				      	<div class="half_detailsq">
+				      		<label class="detailsl">E-mail</label>
+				      	</div>
+				      	<div class="half_detailsa">
+				      		<p class="details">krishnatejalahari0911@gmail.com</p>
+				      	</div>
+				      	<br>
+				      	<div class="half_detailsq">
+				      		<label class="detailsl">Address</label>
+				      	</div>
+				      	<div class="half_detailsa">
+				      		<p class="details">Janthapet, Ramalayam Street</p>
+				      	</div>
+				      	<br>
+				      	<div class="half_detailsq">
+				      		<label class="detailsl">City</label>
+				      	</div>
+				      	<div class="half_detailsa">
+				      		<p class="details">Kavali</p>
+				      	</div>
+				      	<br>
+				      	<div class="half_detailsq">
+				      		<label class="detailsl">Pincode</label>
+				      	</div>
+				      	<div class="half_detailsa">
+				      		<p class="details">524201</p>
+				      	</div>
+				      	<br>
+				 	</div>
+				</div>
+				<br><br>
+		      	<button id="previousbutton"  class="modalbutton">Professional Details</button>
+		      	<div id="previousmodal" class="modal">
+		      		<div id="content2" class="modal-content">
+				    	<span id="close2" class="close">&times;</span>
+				    	<div class="half_detailsq">
+				    		<label class="detailsl">User ID</label>
+				    	</div>
+				    	<div class="half_detailsa">
+				      		<p class="details">CSE17402</p>
+				      	</div>
+				      	<br>
+				      	<div class="half_detailsq">
+				      		<label class="detailsl">Role</label>
+				      	</div>
+				      	<div class="half_detailsa">
+				      		<p class="details">Student</p>
+				      	</div>
+				      	<br>
+				      	<div class="half_detailsq">
+				    		<label class="detailsl">Institute or Company</label>
+				    	</div>
+				    	<div class="half_detailsa">
+				      		<p class="details">Amrita Vishwa Vidyapeetham</p>
+				      	</div>
+				      	<br><br>
+				 	</div>
+				</div>
+		    </div>
+		</div>
+		<div class="coronapre">
+			<p class="p2"> Stay Home !! Stay Safe !! </p>
+		  	<img class="mySlides" src="corona1.png">
+		  	<img class="mySlides" src="corona2.png">
+		  	<img class="mySlides" src="corona3.png">
+		  	<p class="p2"> Follow WHO rules to stay safe</p>
+		</div>
+		<div class="contactus">
+			<h3 class="contact"> Contact Developer </h3><br>
+			<img src="profileimg.jpg" class="icon">
+			<p class="contact">Krishnatej</p>
+			<address>
+				<img src="mailimg.jpg" class="icon">
+		  		<a href="mailto:krishnatej@gmail.com">krishnatej@gmail.com</a><br>
+		  		<img src="phoneimg.png" class="icon">
+		  		<a href="tel:+91715552368">(+91) 715552368</a><br>
+		  		<img src="addressimg.png" class="icon">
+		  		<p class="contact">Janathapet North, Kavali, Andhra Pradesh</p>
+			</address>
+		</div>
+		<script type="text/javascript" src="studentprofile.js"></script>
+	</body>
+</html>
