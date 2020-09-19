@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WMS</title>
+        <style>
+            .nav{
+                position: absolute;
+                list-style-type:none;
+                text-decoration:none;
+                color: blue;
+                font-size:x-large;
+                right: 10px;
+                top: 20px;
+            }
+            .nav li{
+                display: inline-block;
+                font-size: 20px;
+                font-weight: 100;
+                margin: 20px;
+            }
+            .contact{
+                
+                border: 0px solid;
+                color: whitesmoke;
+                background:blue;
+                border-radius: 10px;
+            }
+            .logo{
+                position: absolute;
+                top: 31px;
+                left: 32px;
+            }
+            .grid{
+                display: grid;
+                position: absolute;
+                grid-template-columns:auto auto auto;
+                grid-template-rows:50px 100px 450px;
+                grid-column-gap:50px;
+                align-content: space-between;
+          margin:0px;
+          padding:30px;
+          top:15px;
+            }
+            .bg{
+            background-color: rgb(1, 5, 12);
+            padding: 0px 1300px 10px 0px;
+            }            
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+            <div class="bg" style="grid-area: 1/ 1/ span 1 / span 3; ">
+            <img class="logo" width="60px" src="https://logopond.com/logos/50502d6dd2035c2dfd602baed8ba42d7.png">
+            <nav class="nav">
+                <ul style="display: inline;">
+                <li>Log In</li>
+                <li>Sign Up</li>
+                <li>Register</li>
+                <li>About</li>
+                <li class="contact">Contact</a></li>
+            </ul>    
+        </nav>
+        </div>
+        </div><hr>
+    </body>
+</html>
